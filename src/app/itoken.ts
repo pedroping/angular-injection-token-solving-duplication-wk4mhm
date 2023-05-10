@@ -1,3 +1,3 @@
 export interface IToken {
-  log: (message) => void;
+  log: (message: string) => void;
 }

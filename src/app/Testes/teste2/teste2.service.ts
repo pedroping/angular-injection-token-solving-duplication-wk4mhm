@@ -1,10 +1,8 @@
-import { Injectable } from '@angular/core';
-import { IToken } from 'src/app/itoken';
+import { IToken } from '../../itoken';
 
-@Injectable()
 export class Teste2Service implements IToken {
   log(message: string) {
-    alert(`${message} + 1`);
+    alert(`${message} + 2`);
   }
 
   constructor() {}
