@@ -1,7 +1,7 @@
 import { InjectionToken, NgModule } from '@angular/core';
 import { IProductService, ProductService } from './product.service';
 
-export const PRODUCTSERVICE = new InjectionToken<string>('');
+export const PRODUCTSERVICE = new InjectionToken<any>('');
 
 @NgModule({
   imports: [],

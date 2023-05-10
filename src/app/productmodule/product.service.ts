@@ -1,3 +1,5 @@
+import { Injectable } from '@angular/core';
+
 export class ProductService {
   public getProducts() {
     let products: Product[];

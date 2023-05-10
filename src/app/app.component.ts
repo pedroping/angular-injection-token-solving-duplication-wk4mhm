@@ -11,7 +11,7 @@ import { Product, ProductService } from './productmodule/product.service';
 export class AppComponent {
   products: Product[];
 
-  constructor(@Inject(PRODUCTSERVICE) private productService: ProductService) {}
+  constructor( private productService: ProductService) {}
   getProducts() {
     this.products = this.productService.getProducts();
   }
